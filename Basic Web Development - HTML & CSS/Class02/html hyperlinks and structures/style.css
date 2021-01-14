@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    letter-spacing: 1.2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;            
+    align-items: center;
+    align-content: space-between;
+    margin: 25px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.logo {
+    font-family: 'Reenie Beanie', cursive;
+    position: fixed;
+    font-size: 50px;
+    /* text-shadow: 0 0 20px rebeccapurple; */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 0;
+    text-transform: uppercase;
+    
+
+}
+
+a {
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+a:link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: rebeccapurple;
+    text-shadow: 0 0 0.5px gray;
+}
+
+a:visited {
+    color: black;
+}
+
+.main-p {
+    margin: 100px 100px;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    /* text-shadow: 0px 0px 30px gray; */
+}
+
+.main-nav {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-top: 120px;
+}
+
+.button-food {
+    margin-right: 20px;
+    padding: 20px 47px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.button-food:hover {
+    color: rebeccapurple;
+    border: 2px solid rebeccapurple;
+    box-shadow: 0 0 12px black;
+}
+
+.button-cocktails {
+    background-color: rebeccapurple;
+    padding: 20px;
+    border: 2px solid rebeccapurple;
+    border-radius: 8px;
+}
+
+.button-cocktails:visited {
+    color: white;
+}
+
+.button-cocktails:link {
+    color: white;
+}
+
+.button-cocktails:hover {
+    background-color: black;
+    /* color: black; */
+    /* text-shadow: 0 0 1px black; */
+    border-color: black;
+    /* box-shadow: 0 0 20px black; */
+}
+
+.recipe {
+    margin: 80px 80px 100px 350px;
+}
+
+.side-nav {
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    background-color: rgba(40, 20, 60, 0.3);
+    border-radius: 10px;
+}
+
+.side-nav-list li {
+    margin: 0px 0px 10px 0px;
+    list-style-type: none;
+}
+
+.side-nav ul {
+    padding-inline-start: 10px;
+}
+.side-nav h4 {
+    margin-left: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.side-nav a:hover {
+    color: rebeccapurple;
+}
+
+hr {
+    margin-left: 14px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 150px;
+    border-color: rebeccapurple;
+}
+
+.back-to-top a {
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+b {
+    color: rebeccapurple;
+    text-shadow: 0 0 1px black;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 46px;
+}
+
+/* Aboout page */
+
+.about-container {
+    padding-top: 50px;
+    padding-left: 20px;
+}
