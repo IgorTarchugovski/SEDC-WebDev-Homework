@@ -1,7 +1,7 @@
 # SEDC-WebDev-Homework
 Homework Exercises
 
-Basic Web Development
+"Basic Web Development"
 Left to do:
 1. Class01
 2. Class05 - layout, audio, video, iframe and meta tags
