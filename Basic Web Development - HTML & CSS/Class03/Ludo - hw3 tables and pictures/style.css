@@ -1,0 +1,51 @@
+table {
+    border: 4px solid black;
+    border-spacing: 4px;
+    background-color: #ccc;
+}
+
+td {
+    border: 2px solid black;
+    
+}
+
+.field {
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: cyan;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+.logo{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -18px;
+}
+
+.red-pin, 
+.blue-pin, 
+.green-pin,
+.yellow-pin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    /* border: 2px solid black; */
+    margin: -20px;
+    margin-left: -18px;
+}
+
+
+.red-pin-ingame,
+.blue-pin-ingame,
+.green-pin-ingame,
+.yellow-pin-ingame {
+    width: 36px;
+}
