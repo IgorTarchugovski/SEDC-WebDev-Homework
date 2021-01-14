@@ -1,0 +1,304 @@
+h3 {
+  text-align: center;
+}
+
+/* 1st Example */
+.main-box1 {
+  position: relative;
+  width: 300px;
+  height: 320px;
+  background-color: #333;
+  margin: auto;
+}
+
+.box1 {
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  background-color: wheat;
+  border: 3px solid #333;
+}
+
+.box2 {
+  position: absolute;
+  width: 209px;
+  height: 220px;
+  background-color: #dd4818;
+  right: 0;
+  border: 3px solid #333;
+}
+
+.box3 {
+  position: absolute;
+  width: 80px;
+  height: 120px;
+  background-color: wheat;
+  left: 0;
+  top: 100px;
+  border: 3px solid #333;
+}
+
+.box4 {
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  background-color: #1848dd;
+  left: 0;
+  bottom: 0;
+  border: 3px solid #333;
+}
+
+.box5 {
+  position: absolute;
+  width: 190px;
+  height: 90px;
+  left: 85px;
+  bottom: 0;
+  background-color: wheat;
+  border: 3px solid #333;
+}
+
+.box6 {
+  position: absolute;
+  width: 15px;
+  height: 40px;
+  right: 0px;
+  bottom: 50px;
+  background-color: wheat;
+  border: 3px solid #333;
+}
+
+.box7 {
+  position: absolute;
+  width: 15px;
+  height: 40px;
+  right: 0px;
+  bottom: 0px;
+  background-color: yellow;
+  border: 3px solid #333;
+}
+
+
+
+
+/* 2nd Example */
+
+.main-box2 {
+  position: relative;
+  padding: auto;
+  margin: 50px auto;
+  background-color: #333;
+  width: 500px;
+  height: 500px;
+}
+
+.box2-1 {
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  top: 0;
+  left: 0;
+  background-color: #e5eeeb;
+}
+
+.box2-2 {
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  top: 0;
+  left: 25%;
+  background-color: #f2e7d5;
+}
+
+.box2-3 {
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  top: 0;
+  left: 65%;
+  background-color: #f1c969;
+}
+
+.box2-4 {
+  position: absolute;
+  width: 5%;
+  height: 78.75%;
+  top: 0;
+  right: 0;
+  background-color: #fbfde7;
+}
+
+.box2-5 {
+  position: absolute;
+  width: 10%;
+  height: 25%;
+  top: 10%;
+  left: 0;
+  background-color: #fbfde7;
+}
+
+.box2-6 {
+  position: absolute;
+  width: 55%;
+  height: 55%;
+  top: 10%;
+  left: 10%;
+  background-color: #d62e25;
+}
+
+.box2-7 {
+  position: absolute;
+  width: 30%;
+  height: 25%;
+  top: 10%;
+  left: 65%;
+  background-color: #f1c969;
+}
+
+.box2-8 {
+  position: absolute;
+  width: 10%;
+  height: 43.75%;
+  top: 35%;
+  left: 0%;
+  background-color: #e1eae5;
+}
+
+.box2-9 {
+  position: absolute;
+  width: 15%;
+  height: 30%;
+  top: 35%;
+  left: 65%;
+  background-color: #e0e5d1;
+}
+
+.box2-10 {
+  position: absolute;
+  width: 15%;
+  height: 30%;
+  top: 35%;
+  left: 80%;
+  background-color: #e2eee2;
+}
+
+.box2-11 {
+  position: absolute;
+  width: 27.5%;
+  height: 27.5%;
+  top: 65%;
+  left: 10%;
+  color: white;
+  background-color: #111;
+}
+
+.box2-12 {
+  position: absolute;
+  width: 27.5%;
+  height: 13.75%;
+  top: 65%;
+  left: 37.5%;
+  background-color: #c0bfba;
+}
+
+.box2-13 {
+  position: absolute;
+  width: 30%;
+  height: 13.75%;
+  top: 65%;
+  left: 65%;
+  background-color: #d6dee0;
+}
+
+.box2-14 {
+  position: absolute;
+  width: 10%;
+  height: 25%;
+  top: 78.75%;
+  left: 0;
+  background-color: #f4c559;
+}
+
+.box2-15 {
+  position: absolute;
+  width: 27.5%;
+  height: 13.75%;
+  top: 78.75%;
+  left: 37.5%;
+  background-color: #dee2d4;
+}
+
+.box2-16 {
+  position: absolute;
+  width: 30%;
+  height: 20%;
+  top: 78.75%;
+  left: 65%;
+  color: white;
+  background-color: #241685;
+}
+
+.box2-17 {
+  position: absolute;
+  width: 5%;
+  height: 25%;
+  top: 78.75%;
+  right: 0;
+  background-color: #d73530;
+}
+
+.box2-18 {
+  position: absolute;
+  width: 27.5%;
+  height: 11.25%;
+  top: 92.5%;
+  left: 10%;
+  background-color: #e3deda;
+}
+
+.box2-19 {
+  position: absolute;
+  width: 27.5%;
+  height: 6.25%;
+  top: 92.5%;
+  left: 37.5%;
+  color: white;
+  background-color: #0b0205;
+}
+
+.box2-20 {
+  position: absolute;
+  width: 57.5%;
+  height: 5%;
+  top: 98.75%;
+  right: 5%;
+  background-color: #e0e0e0;
+}
+
+
+
+
+.box2-1,
+.box2-2,
+.box2-3,
+.box2-4,
+.box2-5,
+.box2-6,
+.box2-7,
+.box2-8,
+.box2-9,
+.box2-10,
+.box2-11,
+.box2-12,
+.box2-13,
+.box2-14,
+.box2-15,
+.box2-16,
+.box2-17,
+.box2-18,
+.box2-19,
+.box2-20 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
