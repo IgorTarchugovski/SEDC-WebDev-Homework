@@ -21,7 +21,7 @@ let mood = ['happy', 'sad', 'crazy', 'bored', 'hyper'];
 let activity = ['jogging', "cooking", "reading", "drinking", "sleeping"];
 
 function randomStory(a, b, c) {
-    console.log(`I am ${a[Math.floor(Math.random() * a.length)]} and i am feeling ${b[Math.floor(Math.random() * b.length)]}. I was ${c[Math.floor(Math.random() * c.length)]} all day. The end.`);
+    console.log(`Hello. My name is ${a[Math.floor(Math.random() * a.length)]}. Today i am feeling ${b[Math.floor(Math.random() * b.length)]}. I was ${c[Math.floor(Math.random() * c.length)]} all day. The end.`);
 }
 
 randomStory(person, mood, activity);
