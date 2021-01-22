@@ -1,0 +1,1 @@
+// Action: Write a JavaScript program to read ten array values, determine the largest value, and print it
