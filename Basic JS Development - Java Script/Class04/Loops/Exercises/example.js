@@ -7,7 +7,7 @@ console.log(myArr);
 
 function largestValue(arr) {
     let val = null;
-    for (i=0; i<arr.length; i++) {
+    for (let i=0; i<arr.length; i++) {
         if (arr[i] > val) {
           val = arr[i]
           
