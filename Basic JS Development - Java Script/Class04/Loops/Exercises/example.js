@@ -17,4 +17,4 @@ function largestValue(arr) {
     return val;
 }
 
-console.log(largestValue(myArr));
+console.log("Largest value of the array is: " ,largestValue(myArr));
