@@ -6,3 +6,10 @@ It will create one big string and return it
 Ex:["Hello", "there", "students", "of", "SEDC", "!"]
 Result: "Hello there students of SEDC!"
 */
+
+function bigString() {
+    let arr = ["Hello", "there", "students", "of", "SEDC", "!"];
+    console.log(arr.join(' '));
+}
+
+bigString();
